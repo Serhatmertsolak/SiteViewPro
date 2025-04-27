@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Design Validator</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Responsive Design Validator</h1>
+    <p class="disclaimer">
+      ⚠️ Bu araç, kullanıcıların kendi web sitelerini farklı ekran boyutlarında test etmeleri için geliştirilmiştir. 
+      Girilen URL'ler tamamen kullanıcı sorumluluğundadır.
+    </p>
+  </header>
+
+  <main class="container">
+    <form id="urlForm">
+      <input
+        type="url"
+        id="urlInput"
+        placeholder="Test edilecek HTTPS URL’yi girin (ör: https://example.com)"
+        required
+      />
+      <button type="submit">Test Et</button>
+    </form>
+    <div id="iframeContainer" class="iframe-container"></div>
+  </main>
+
+  <footer>
+    <p>© 2025 • Deneysel ve eğitim amaçlıdır. Kullanıcı sorumluluğu ön plandadır.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
